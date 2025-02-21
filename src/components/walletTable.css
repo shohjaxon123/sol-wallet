@@ -1,0 +1,109 @@
+.wallet-table-container {
+    width: 97%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background: #0e0e0ef5;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
+    max-height: 850px; /* Maksimal balandlik */
+    overflow-y: auto; /* Sig'maganini scroll bilan chiqarish */
+    transform: translateY(910px);
+    margin-left: 10px;
+      
+  }
+  
+  .search-input {
+    width: 50%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background: #2a2a2e;
+    color: white;
+    margin-bottom: 20px;
+    transform: translateY(15px);  }
+  
+  .wallet-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .wallet-table th, .wallet-table td {
+    padding: 12px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .wallet-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .wallet-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .copy-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #2a72d0a8;
+    transform: translateX(-90px);
+  }
+  
+  .trade-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .trade-input {
+    width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    background: #2a2a2e;
+    color: white;
+    text-align: center;
+  }
+  
+  .buy-btn, .sell-btn {
+    width: 80px;
+    padding: 8px 12px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .buy-btn {
+    background: rgba(42, 109, 82, 0.715);
+    color: rgb(14, 187, 43);
+    margin-left: 10px;
+  }
+  
+  .sell-btn {
+    background-color: #b22c2c86;
+    color: #f72424;
+    margin-left: 10px;
+
+  }
+  
+  .buy-btn:hover {
+    color:rgb(14, 187, 43) ;
+    border: solid 1px rgba(42, 109, 82, 0.715);
+    background: #0e0e0e66;
+  }
+  
+  .sell-btn:hover {
+    color:#f72424 ;
+    border: solid 1px #b22c2c86;
+    background: #0e0e0e66;
+  }
+  

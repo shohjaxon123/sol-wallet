@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import WalletTable from "./components/walletTable";
+import TradingPanel from "./components/tradingPanel";
+import CreateTokenForm from "./components/CreateTokenForm";
+import TradingViewChart from "./components/TradingViewChart";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <WalletTable />
+      <TradingPanel />
+      <CreateTokenForm />
+      <TradingViewChart />
     </div>
   );
 }

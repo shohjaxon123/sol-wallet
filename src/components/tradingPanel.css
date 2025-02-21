@@ -1,0 +1,63 @@
+.trading-panel {
+    width: 460px;
+    background-color: #0e0e0ef5;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    margin-left: 1395px;
+    transform: translateY(-885px);
+  }
+  
+  .label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-field {
+    width: 40%;
+    padding: 5px;
+    background-color: #2a2a2a;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .info {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .small-text {
+    font-size: 10px;
+    color: gray;
+  }
+  
+  .actions {
+    margin-top: 15px;
+  }
+  
+  .sell-btn2 {
+    width: 100%;
+    background-color: #b22c2c86;
+    color: #f72424;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .cycle-btn {
+    width: 100%;
+    background-color: #2a72d07d;
+    padding: 8px;
+    border: none;
+    color: #0a73fb;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  

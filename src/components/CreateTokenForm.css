@@ -1,0 +1,88 @@
+.token-form {
+    width: 455px;
+    height: 550px;
+    background-color: #0e0e0ef5;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    margin-left: 1395px;
+    transform: translateY(-880px);
+  }
+  
+  .input-field {
+    width: 95%;
+    height: 25px;
+    padding: 8px;
+    background-color: #2a2a2a;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .textarea {
+    resize: none;
+    height: 50px;
+  }
+  
+  .file-upload {
+    display: flex;
+    align-items: center;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .browse-btn {
+    background-color: rgba(255, 255, 255, 0.441);
+    color: rgb(255, 255, 255);
+    padding: 5px 8px;
+    font-size: 13px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .file-name {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .file-upload input {
+    display: none;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .checkbox-container label {
+    font-size: 12px;
+  }
+  
+  .bundle-input {
+    width: 150px;
+    padding: 5px;
+    background-color: #2a2a2a;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transform: translateX(-10px);  
+}
+  
+  .create-btn {
+    width: 100%;
+    background-color: #2a72d07d;
+    color: #5aa0fc;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
