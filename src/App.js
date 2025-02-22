@@ -3,6 +3,7 @@ import WalletTable from "./components/walletTable";
 import TradingPanel from "./components/tradingPanel";
 import CreateTokenForm from "./components/CreateTokenForm";
 import TradingViewChart from "./components/TradingViewChart";
+import Buysell from "./components/Buysell";
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
       <TradingPanel />
       <CreateTokenForm />
       <TradingViewChart />
+      <Buysell />
     </div>
   );
 }

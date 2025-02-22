@@ -34,7 +34,7 @@ const TradingViewChart = () => {
     };
   }, []);
 
-  return <div id="tradingview_chart" ref={chartContainerRef} style={{ width: "73%", height: "895px" }} />;
+  return <div id="tradingview_chart" ref={chartContainerRef} style={{ width: "73%", height: "905px" }} />;
 };
 
 export default TradingViewChart;

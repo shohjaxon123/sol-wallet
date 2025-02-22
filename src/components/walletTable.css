@@ -9,8 +9,8 @@
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
     max-height: 850px; /* Maksimal balandlik */
     overflow-y: auto; /* Sig'maganini scroll bilan chiqarish */
-    transform: translateY(910px);
-    margin-left: 10px;
+    transform: translateY(920px);
+    margin-left: 5px;
       
   }
   

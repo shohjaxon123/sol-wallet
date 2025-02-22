@@ -1,0 +1,210 @@
+/* Buysell.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transform: translateY(600px);
+  margin-left: -1052px;
+}
+
+.panel {
+  background: #000000dc;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  width: 1600px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  transform: translateX(400px);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: start;
+}
+
+.forms-container {
+  width: 2000px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.form-section {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  width: 48%;
+}
+
+.section-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: -0px;
+  text-align: start;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #bbb;
+  text-align: start;
+  margin-left: 7px;
+ transform: translateY(-5px);
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+.solinput{
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 96%;
+}
+input {
+  border: none;
+  width: 48%;
+  padding: 8px;
+  border-radius: 4px;
+  background: #222;
+  color: white;
+  text-align: start;
+  border: 1px solid #666;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.start-btn, .stop-btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 35%;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+.start-btn {
+  background: rgba(42, 109, 82, 0.715);
+  color: rgb(14, 187, 43);
+}
+
+.start-btn:hover {
+  color:rgb(14, 187, 43) ;
+  border: solid 1px rgba(42, 109, 82, 0.715);
+  background: #0e0e0e66;
+}
+
+.stop-btn {
+  background-color: #b22c2c86;
+  color: #f72424;
+}
+
+.stop-btn:hover {
+  color:#f72424 ;
+  border: solid 1px #b22c2c86;
+  background: #0e0e0e66;
+}
+
+.start-btn.disabled, .stop-btn.disabled {
+  background: rgba(128, 128, 128, 0.411);
+  color: gray;
+  cursor: not-allowed;
+}
+
+.status {
+  text-align: start;
+  margin-top: -35px;
+  transform: translateX(217px);
+  font-size: 16px;
+}
+.inputpool{
+  transform: translateX(-85px);
+}
+
+.started {
+  font-size: 14px;
+  color: rgb(14, 187, 43);
+}
+
+.stopped {
+  font-size: 14px;
+  color: #f72424;
+}
+.status2{
+  transform: translateX(130px);
+  margin-top: -35px;
+}
+
+
+
+
+
+
+
+
+.spread-container {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 15px;
+  width: 430px;
+  border-radius: 8px;
+}
+
+.spread-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: -0px;
+  text-align: start;
+}
+
+.spread-label {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.spread-input {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  background-color: #4d4d4d;
+  color: white;
+  border: 1px solid #888;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: -6px;
+}
+
+.spread-button {
+  background-color: #2a72d07d;
+  color: #5aa0fc;
+  font-size: 14px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.spread-button:hover {
+  border: 1px solid #2a72d07d ;
+  background: #0e0e0e66;
+  color: #5aa0fc ;
+  transition: 0.3s;
+}

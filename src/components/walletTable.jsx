@@ -40,18 +40,12 @@ const WalletTable = () => {
   };
 
   const handleQuantityChange = (id, value, type) => {
-    if (type === "buy") {
-      setQuantities((prev) => ({
-        ...prev,
-        [id]: value,
-      }));
-    } else {
-      setSellQuantities((prev) => ({
-        ...prev,
-        [id]: value,
-      }));
-    }
+   
   };
+  
+  
+  
+  
 
   return (
     <div className="wallet-table-container">
@@ -73,7 +67,7 @@ const WalletTable = () => {
                 <th>Wallet</th>
                 <th>SOL</th>
                 <th>Waiting</th>
-                <th>Q</th>
+                <th >Q</th>
                 <th>Buy</th>
                 <th>Sell</th>
               </tr>
@@ -107,8 +101,7 @@ const WalletTable = () => {
                         className="trade-input"
                         placeholder="0.00"
                         min="0"
-                        value={quantities[wallet.id]}
-                        onChange={(e) => handleQuantityChange(wallet.id, e.target.value, "buy")}
+                       
                       />
                       <button className="buy-btn">Buy</button>
                     </td>
@@ -118,8 +111,6 @@ const WalletTable = () => {
                         className="trade-input"
                         placeholder="0.00"
                         min="0"
-                        value={sellQuantities[wallet.id]}
-                        onChange={(e) => handleQuantityChange(wallet.id, e.target.value, "sell")}
                       />
                       <button className="sell-btn">Sell</button>
                     </td>
